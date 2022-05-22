@@ -13,8 +13,8 @@ const Element = ({ currentItems }: ElementType) => {
     return (
         <div>
             {currentItems &&
-                currentItems.map((el) => (
-                    <div className={style.element}>
+                currentItems.map((el, index) => (
+                    <div className={style.element} key ={index} >
                         <a href={el.html_url} target="_blank" rel="noreferrer">{el.name}</a>
                         <div className={style.description}>{el.description ? el.description : ''}</div>
                     </div>
