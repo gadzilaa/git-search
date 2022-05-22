@@ -1,0 +1,15 @@
+.container {
+    width: 45%;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.logoSearch {
+    width: 14px;
+    height: 14px;
+    margin-right: 11px;
+    margin-left: 19px;
+}
